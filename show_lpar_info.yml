@@ -2,7 +2,7 @@
 # Simple playbook to set facts about a VM from gathered facts and command execution
 - name: Show VM details
   hosts: all
-  gather_facts: yes
+#  gather_facts: yes
 
   collections:
     - ibm.power_aix
